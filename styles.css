@@ -1,0 +1,349 @@
+/* GENERAL */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    font-family:'Crete Round', Serif;
+    font-size: 45px;
+    color: #ffff;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-size: 22px;
+    color: #444;
+    color: #CC6D58;
+    font-family:Abril Fatface, sans-serif;
+}
+
+h4 {
+    font-size: 17px;
+    color: #444;
+    font-family: Abril Fatface, sans-serif;
+}
+
+h5 {
+    font-size: 16px;
+    color: #444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+   
+}
+
+.wrapper {
+    width: 1090px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.orange {
+    color: #f39da4
+}
+
+.clear {
+    clear: both;
+}
+
+p {
+    line-height: 20px;
+    color: #777
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+ul {
+    list-style: none;
+}
+
+.button-1 {
+    display: block;
+    width: 60px;
+    height: 20px;
+    background-color: #c73447;
+    color: #ffff;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    border: solid;
+
+}
+
+.button-1:hover {
+    background: #1ed760;
+}
+
+/*HEADER */
+
+header {
+    height: 120px;
+    background-color: #735755;
+    border-bottom: solid #ffff;
+}
+
+header h1 {
+    float:left;
+    margin-top: 32px;
+}
+
+header nav {
+    float:right;
+    margin-top: 50px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffff;
+}
+
+/* MAIN IMAGE */
+
+#main-image {
+    height: 580px;
+    background: url("imagestailleok/mainpiano.jpg") center ;
+}
+
+#main-image h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0 40px 0;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #fff7;
+    height: 80px;
+    border: solid;
+    border-radius: 20px;
+    border-top: #ffff;
+  
+}
+
+#elite100 {
+    background: url("imagestailleok/top\ \(1\).png") no-repeat top center;
+    background-color: #DFC9BB;
+    border: solid;
+    border-radius: 30px;
+    border-color: #ffff;
+    height: 190px;
+    width: 300px;
+    padding-top: 100px;
+    margin-left: 350px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#elite100 h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px; 
+}
+
+#elite100 p {
+    margin-bottom: 20px;
+}
+
+
+
+/* RAP FRANCAIS */
+
+#rapfr {
+    background-color: #A86D54;
+    border-top: 3px solid #ffff;
+}
+
+#rapfr ul li {
+         margin: 80px 0;
+        list-style-type: none;
+        width: 300px;
+        float: left;
+        padding-top: 140px;
+        text-align: center;
+        margin-right: 50px;
+
+    }
+
+
+#rapfr h4 {
+    text-transform: uppercase;
+    
+}
+
+#rapfr p {
+    margin-bottom: 10px;
+}
+
+#tempsmort {
+    background: url("imagestailleok/tempsmort.jpg") no-repeat top center ;
+    background-color: #DFC9BB;
+    border: solid;
+    border-radius: 30px;
+    border-color: #ffff;
+    height: 190px;
+}
+
+#ipseite {
+    background: url("imagestailleok/ipseite.jpg") no-repeat top center;
+    background-color: #DFC9BB;
+    border: solid;
+    border-radius: 30px;
+    border-color: #ffff;
+    height: 190px;
+}
+
+#stamina {
+    background: url("imagestailleok/stamina.jpg") no-repeat top center;
+    border: 5px;
+    background-color: #DFC9BB;
+    border: solid;
+    border-radius: 30px;
+    border-color: #ffff;
+    height: 190px;
+}
+
+/* RAP AMERICAIN */
+
+#rapus {
+    background-color: #B58A70;
+    border-top: 3px solid #ffff;
+}
+
+#rapus ul li {
+    margin: 80px 0;
+   list-style-type: none;
+   width: 300px;
+   float: left;
+   padding-top: 140px;
+   text-align: center;
+   margin-right: 50px;
+}
+#rapus h4 {
+    text-transform: uppercase;
+}
+
+#rapus p {
+    margin-bottom: 20px;
+}
+
+#darkfantasy {
+    background: url("imagestailleok/darkfantasy.jpg") no-repeat top center;
+    background-color: #DFC9BB;
+    border: solid;
+    border-radius: 30px;
+    border-color: #ffff;
+    height: 190px;
+}
+
+#manonthemoon {
+    background: url("imagestailleok/moon.jpg") no-repeat top center;
+    background-color: #DFC9BB;
+    border: solid;
+    border-radius: 30px;
+    border-color: #ffff;
+    height: 190px;
+}
+
+#miseducation {
+    background: url("imagestailleok/miseducation.jpg") no-repeat top center;
+    background-color: #DFC9BB;
+    border: solid;
+    border-radius: 30px;
+    border-color: #ffff;
+    height: 190px;
+}
+
+/* CHANSON */
+
+#voices {
+    background-color: #D3B099;
+    border-top: 3px solid #ffff;
+}
+
+#voices ul li {
+    margin: 80px 0;
+   list-style-type: none;
+   width: 300px;
+   float: left;
+   padding-top: 140px;
+   text-align: center;
+   margin-right: 50px;
+}
+
+
+#voices h4 {
+    text-transform: uppercase;
+}
+
+#voices p {
+    margin-bottom: 20px;
+}
+
+#dawnfm {
+    background: url("imagestailleok/dawnfm.jpg") no-repeat top center;
+    background-color: #DFC9BB;
+    border: solid;
+    border-radius: 30px;
+    border-color: #ffff;
+    height: 190px;
+}
+
+#arethanow {
+    background: url("imagestailleok/arethanow.jpg") no-repeat top center;
+    background-color: #DFC9BB;
+    border: solid;
+    border-radius: 30px;
+    border-color: #ffff;
+    height: 190px;
+}
+
+#whatsgoingon {
+    background: url("imagestailleok/wgon.jpg") no-repeat top center;
+    background-color: #DFC9BB;
+    border: solid;
+    border-radius: 30px;
+    border-color: #ffff;
+    height: 190px;
+}
+
+
+/* FOOTER */ 
+
+footer {
+    height: 260px;
+    background-color: #444;
+    border-top: 3px solid #ffff;
+}
+
+footer h1 {
+    color: #ffff;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+    color: #777;
+    padding-top: 30px;
+}
+
